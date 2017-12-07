@@ -11,6 +11,7 @@
       }
 
       body {
+        width: auto;
         height: auto;
       }
 
@@ -51,7 +52,118 @@
         background-color:#191d3a;
         background-image: url(images/banner1.jpg);
         background-repeat: no-repeat;
-        background-position: center,center;
+        background-position: -290px,center;
+      }
+
+      div.main .recommend {
+        width: auto;
+      }
+
+      div.main .recommend ul {
+        width: auto;
+        list-style: none;
+        overflow: hidden;
+      }
+
+      div.main .recommend ul li {
+        float: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-left: 100px;
+      }
+      div.main .recommend ul li img {
+        width: 218px;
+        height: 128px;
+      }
+
+      div.main .recommend ul li .recommend-desc {
+        color: #444866;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      div.main .line {
+        height: 1px;
+        background-color: #ddd;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+
+      div.main .news {
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 200px;
+        margin-right: 100px;
+        overflow: hidden;
+      }
+      div.main .news .news-detail {
+        width: 500px;
+        height: 300px;
+        float: left;
+        font-size: 20px;
+        font-weight: 400;
+        color: #444866;
+      }
+
+      div.main .news .news-detail li {
+        font-size: 12px;
+        color: #444866;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      div.main .news .news-detail li a{
+        display: block;
+        width: auto;
+        height: 20px;
+        color: #444866;
+        text-decoration: none;
+      }
+      div.main .news .news-job {
+        width: 500px;
+        height: 300px;
+        float: left;
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #444866;
+      }
+
+      div.main .news .news-job ul li {
+        list-style: none;
+          color: #444866;
+          font-size: 12px;
+          text-decoration: none;
+          padding-top: 20px;
+          padding-right: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+
+      div.main .news .news-job li a{
+        display: block;
+        width: auto;
+        height: 20px;
+        color: #444866;
+        text-decoration: none;
+      }
+
+      .footer {
+        width: auto;
+        background-color: #191d3a;
+        padding-top: 50px;
+        padding-bottom:50px;
+        padding-left: 200px;
+        color: #6c6e7e;
+        font-size: 12px;
+      }
+
+      .margin-top {
+        margin-top: 20px;
       }
 
     </style>
@@ -81,18 +193,65 @@
     </div>
     <div class="main">
       <div class="banner">
-
       </div>
       <div class="recommend">
+          <ul>
+            <li>
+              <img src="./images/video.jpg" alt="">
+              <h3 class="recommend-desc">博雅互动宣传片</h3>
+            </li>
+            <li>
+              <img src="./images/bbt.jpg" alt="">
+              <h3 class="recommend-desc">BPT宣传片</h3>
+            </li>
+            <li>
+              <img src="./images/byamaj.jpg" alt="">
+              <h3 class="recommend-desc">麻将全集</h3>
+            </li>
+            <li>
+              <img src="./images/byqpai2.jpg" alt="">
+              <h3 class="recommend-desc">中国象棋</h3>
+            </li>
+          </ul>
+      </div>
+      <div class="line">
 
       </div>
       <div class="news">
-
+          <div class="news-detail">
+              <h3>博雅新闻</h3>
+              <ul>
+                <li><a href="#">博雅互动公布2017第三季度业绩，打造亚洲具影响力赛事品牌</a></li>
+                <li><a href="#">2017博雅互动云南高校象棋争霸赛即将开赛</a></li>
+                <li><a href="#">2017博雅互动BPT冠军诞生 台湾选手林弘昌揽127万奖励</a></li>
+                <li><a href="#">2017博雅国际扑克大赛（BPT）在澳门开幕</a></li>
+                <li><a href="#">博雅互动公布2017第三季度业绩，打造亚洲具影响力赛事品牌</a></li>
+                <li><a href="#">2017博雅互动云南高校象棋争霸赛即将开赛</a></li>
+              </ul>
+          </div>
+          <div class="news-job">
+              <h3>专场招聘</h3>
+              <ul>
+                <li><a href="#">PHP开发工程师</a></li>
+                <li><a href="#">C++开发工程师</a></li>
+                <li><a href="#">大数据开发工程师</a></li>
+                <li><a href="#">前端开发工程师</a></li>
+                <li><a href="#">内容运营</a></li>
+                <li><a href="#">产品助理</a></li>
+              </ul>
+          </div>
       </div>
     </div>
 
     <div class="footer">
-
+        <p>
+          网站地图  |  免责声明  |  监督举报
+        </p>
+        <p class="margin-top">
+          Copyright © 2004 - 2019 博雅互动(Boyaa Interactive)粤ICP备05062536号
+        </p>
+        <p class="margin-top">
+        网络文化经营许可证：粤网文[2015]1991-405号 | 互联网出版许可证：新出网证（粤）字062号 | 增值电信业务经营许可证：粤B2-20110513 </p>
     </div>
   </body>
 </html>
